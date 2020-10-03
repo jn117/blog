@@ -1,0 +1,9 @@
+{{ with .Site.Params.Social.Github }}
+<a href="https://github.com/{{.}}" target="_blank" rel="me noopener"><i class="iconfont icon-github"></i></a>
+{{ end }}
+{{ with .Site.Params.Social.Wechat}}
+<a href="javascript:void(0);" target="_blank" rel="me noopener" onclick="document.getElementById('lightbox').style.display='inline';"><i class="iconfont icon-wechat"></i></a> 
+{{end}}
+{{ with .Site.Params.Social.Email}}
+<a href="mailto:{{.}}" rel="me noopener"><i class="iconfont icon-mail01"></i></a>
+{{ end }}
